@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <title>Q2</title>
+    </head>
+    <body>
+        <h1>Number Members</h1>
+
+        {% if error_message %}
+            <p style="color: red;">{{ error_message }}</p>
+        {% else %}
+            {% if member_num %}
+                <p>The number of members is: <strong>{{ member_num }}</strong></p>
+            {% else %}
+                <p>No data available.</p>
+            {% endif %}
+        {% endif %}
+    </body>
+</html>
+
+

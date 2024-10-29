@@ -1,0 +1,113 @@
+[
+  {
+    "model": "gym_app.gym",
+    "pk": 1,
+    "fields": {
+      "name": "Fitness Hub",
+      "location": "Dublin",
+      "year_established": 2010
+    }
+  },
+  {
+    "model": "gym_app.gym",
+    "pk": 2,
+    "fields": {
+      "name": "Powerhouse Gym",
+      "location": "Cork",
+      "year_established": 2015
+    }
+  },
+  {
+    "model": "gym_app.gym",
+    "pk": 3,
+    "fields": {
+      "name": "Elite Fitness",
+      "location": "Galway",
+      "year_established": 2018
+    }
+  },
+  {
+    "model": "gym_app.member",
+    "pk": 1,
+    "fields": {
+      "name": "John Doe",
+      "dob": "1985-06-15",
+      "gym": 1,
+      "bmi": 24
+    }
+  },
+  {
+    "model": "gym_app.member",
+    "pk": 2,
+    "fields": {
+      "name": "Jane Smith",
+      "dob": "1990-03-22",
+      "gym": 2,
+      "bmi": 22
+    }
+  },
+  {
+    "model": "gym_app.member",
+    "pk": 3,
+    "fields": {
+      "name": "Alice Johnson",
+      "dob": "1995-12-01",
+      "gym": 3,
+      "bmi": 26
+    }
+  },
+  {
+    "model": "gym_app.equipment",
+    "pk": 1,
+    "fields": {
+      "name": "Treadmill",
+      "value": 1000,
+      "quantity": 5,
+      "gym": 1
+    }
+  },
+  {
+    "model": "gym_app.equipment",
+    "pk": 2,
+    "fields": {
+      "name": "Dumbbells Set",
+      "value": 300,
+      "quantity": 10,
+      "gym": 2
+    }
+  },
+  {
+    "model": "gym_app.equipment",
+    "pk": 3,
+    "fields": {
+      "name": "Exercise Bike",
+      "value": 600,
+      "quantity": 7,
+      "gym": 3
+    }
+  },
+  {
+    "model": "gym_app.equipment",
+    "pk": 4,
+    "fields": {
+      "name": "Weight Bench",
+      "value": 400,
+      "quantity": 4,
+      "gym": 1
+    }
+  },
+  {
+    "model": "gym_app.equipment",
+    "pk": 5,
+    "fields": {
+      "name": "Barbell Set",
+      "value": 500,
+      "quantity": 8,
+      "gym": 2
+    }
+  }
+]
+
+
+
+  

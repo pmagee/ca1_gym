@@ -1,0 +1,14 @@
+<html>
+<head>
+    <title>Gym & Equipment List</title>
+</head>
+<body>
+    <h2>Gym & Equipment List</h2>
+    {% for gym in all_gyms_list %}
+        <h3>{{ gym.name }}</h3>
+        {% for equipment in gym.equipment_set.all %}
+            <h4><li>{{ equipment.name }}</li></h4>
+        {% endfor %}
+    {% endfor %}
+</body>
+</html>

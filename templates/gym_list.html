@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Gym List</title>
+</head>
+<body>
+    <h1>Gym List Page</h1>
+    {% for gym in all_gyms_list %}
+        <h2><a href="{% url 'gym_detail' gym.pk %}">{{ gym.name }}</a></h2>
+    {% endfor %}
+    <h2><a href="{% url 'gym_create' %}">+New Gym</a></h2>
+</body>
+</html>
+

@@ -1,0 +1,13 @@
+<html>
+<head>
+    <title>Detail</title>
+</head>
+<body>
+    <h1>Gym Details Page</h1>
+    <p>Name: {{ gym.name }}</p>
+    <p>Location: {{ gym.location }}</p>
+    <p>Year established: {{ gym.year_established }}</p>
+
+    <p><a href="{% url 'gym_edit' gym.pk %}">+ Edit Gym Record</a></p>
+</body>
+</html>
